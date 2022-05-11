@@ -1,7 +1,7 @@
 <!--
-author:   Your Name
+author:   Gerald
 
-email:    your@mail.org
+email:    gerald@gsvirtuallearning.com
 
 version:  0.0.1
 
@@ -16,6 +16,7 @@ comment:  Full day workshop at eLearning Africa 2022.
 # LiaScript Tutorial: eLearning Africa 2022
 
 ![LiaScript on Nokia](images/nokia.jpeg)
+
 ## Setup
 
 1. Create an account at: https://github.com
@@ -29,10 +30,10 @@ comment:  Full day workshop at eLearning Africa 2022.
 
 > **important keyboard short-cuts**
 >
-> * Fuzzy Search: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
-> * Save: <kbd>Shift</kbd> + <kbd>S</kbd>
-> * Move lines: <kbd>Alt</kbd> + <kbd>ᐃ/ᐁ</kbd>
-> * __LiaScript__:
+> - Fuzzy Search: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+> - Save: <kbd>Shift</kbd> + <kbd>S</kbd>
+> - Move lines: <kbd>Alt</kbd> + <kbd>ᐃ/ᐁ</kbd>
+> - **LiaScript**:
 >
 >   - Snippets: <kbd>l</kbd> <kbd>i</kbd> <kbd>a</kbd>
 >   - Programming languages: <kbd>h</kbd> <kbd>i</kbd> <kbd>l</kbd> <kbd>i</kbd>
@@ -42,50 +43,50 @@ comment:  Full day workshop at eLearning Africa 2022.
 
 **`https://LiaScript.github.io/course/?YOUR_COURSE_URL`**
 
-
     {{1}}
-* [GitHub](https://github.com)
-* [GitLab](https://gitlab.com)
 
-    {{2}}
-* [DropBox](https://DropBox.com)
-* [nextCloud](https://nextCloud.com)
+- [GitHub](https://github.com)
+- [GitLab](https://gitlab.com)
 
-    {{3}}
-* [Brave Browser](https://brave.com) via [IPFS](https://ipfs.io)
-* [Beaker Browser](https://beakerbrowser.com) via [Hyper](https://hypercore-protocol.org)
+  {{2}}
+
+- [DropBox](https://DropBox.com)
+- [nextCloud](https://nextCloud.com)
+
+  {{3}}
+
+- [Brave Browser](https://brave.com) via [IPFS](https://ipfs.io)
+- [Beaker Browser](https://beakerbrowser.com) via [Hyper](https://hypercore-protocol.org)
 
   !?[Beaker-Browser demo](https://beakerbrowser.com/beaker-site-demo.mp4)<!-- autoplay="true" -->
 
-* [Onion-Share](https://onionshare.org)
+- [Onion-Share](https://onionshare.org)
 
-    {{4}}
-* free webspace
-* [CodiLia](https://github.com/liaScript/codilia)
+  {{4}}
 
+- free webspace
+- [CodiLia](https://github.com/liaScript/codilia)
 
 ## Markdown?
 
-
-> ~~__Markdown is intended to be as easy-to-read and easy-to-write as is feasible.__~~
+> ~~**Markdown is intended to be as easy-to-read and easy-to-write as is feasible.**~~
 >
 > Readability, however, is emphasized above all else.
-> A Markdown-formatted document ~~__should be publishable as-is__~~, as plain text, without looking like it’s been marked up with tags or formatting instructions.
-> While Markdown’s syntax has been influenced by several existing text-to-HTML filters — including Setext, atx, Textile, reStructuredText, Grutatext, and EtText — the single ~~__biggest source of inspiration__~~ for Markdown’s syntax is the format of ~~__plain text email__~~.
+> A Markdown-formatted document ~~**should be publishable as-is**~~, as plain text, without looking like it’s been marked up with tags or formatting instructions.
+> While Markdown’s syntax has been influenced by several existing text-to-HTML filters — including Setext, atx, Textile, reStructuredText, Grutatext, and EtText — the single ~~**biggest source of inspiration**~~ for Markdown’s syntax is the format of ~~**plain text email**~~.
 >
->To this end, Markdown’s syntax is comprised entirely of punctuation characters, which ~~__punctuation characters have been carefully chosen so as to look like what they mean__~~.
-> E.g., asterisks around a word actually look like \*emphasis\*. Markdown ~~__lists look like, well, lists__~~.
-> Even ~~__blockquotes look like quoted passages of text__~~, assuming you’ve ever used email.
+> To this end, Markdown’s syntax is comprised entirely of punctuation characters, which ~~**punctuation characters have been carefully chosen so as to look like what they mean**~~.
+> E.g., asterisks around a word actually look like \*emphasis\*. Markdown ~~**lists look like, well, lists**~~.
+> Even ~~**blockquotes look like quoted passages of text**~~, assuming you’ve ever used email.
 >
 > -- by [John Gruber](https://daringfireball.net/projects/markdown/syntax#philosophy)
-
 
 Headers
 
 By now you should have noticed, that # (hash-tags) are used to structure your content.
 The number of # defines the header-type and indentation.
 
-------------------------
+---
 
 Task:
 
@@ -104,19 +105,19 @@ Add two more paragraphs and try out, if the number of empty lines in between has
 
 ### Lists
 
-Bullet points in an unordered list indicated by starting *, -, or + and require indentation:
+Bullet points in an unordered list indicated by starting \*, -, or + and require indentation:
 
-* A list always starts with the first bullet point
-* A bullet point can consist of multiple parts.
+- A list always starts with the first bullet point
+- A bullet point can consist of multiple parts.
 
   The only thing you will have to keep in mind is the correct indentation.
 
-* A list can also contain further lists:
+- A list can also contain further lists:
 
-  + These do not necessarily have to start with an asterisks
-  + But it is good practice if you use different symbols for different nesting
+  - These do not necessarily have to start with an asterisks
+  - But it is good practice if you use different symbols for different nesting
 
-------------------------
+---
 
 Task:
 
@@ -125,7 +126,6 @@ Add some more bullet points the list, where you write down some comments your ex
 #### Numbered lists
 
 Markdown has also support for numbered lists, which can be used in combination with "unordered" lists.
-
 
 1. First
 2. Second
@@ -141,24 +141,24 @@ and create an example, where you combine numbered and not numbered bullet points
 Highlighting peaces of the text with only a text-editor might seem tricky at first.
 But, you can use different elements to tag your content.
 
-* `code`: this type is required if you want to highlight elements as code, the markdown interpreter will leave everything as it is (including Markdown syntax)
+- `code`: this type is required if you want to highlight elements as code, the markdown interpreter will leave everything as it is (including Markdown syntax)
 
-* italic: surround the word or the text with either `*` or  `_`.
+- italic: surround the word or the text with either `*` or `_`.
 
-* bold: think of two times as important as italic, thus it is surround by two `**` or `__`.
+- bold: think of two times as important as italic, thus it is surround by two `**` or `__`.
 
-* bold and italic: how would you now try to define this and try out some nested combinations.
+- bold and italic: how would you now try to define this and try out some nested combinations.
 
-* Task: If you are using WhatsApp, you could write some messages with this formatting.
+- Task: If you are using WhatsApp, you could write some messages with this formatting.
   WhatsApp has support for some pieces of markdown-syntax.
 
-* crossed out: if you use `~` similarly to bold and italic, you will get a similar effect.
+- crossed out: if you use `~` similarly to bold and italic, you will get a similar effect.
 
-* underlined: ???
+- underlined: ???
 
-* crossed out and underlined: follow the markdown idea ;-)
+- crossed out and underlined: follow the markdown idea ;-)
 
-* superscript: it is not Markdown but LiaScript, but you can use `^` to surround superscript elements
+- superscript: it is not Markdown but LiaScript, but you can use `^` to surround superscript elements
 
 ### Block-quotes
 
@@ -195,12 +195,12 @@ Internal links follow a similar pattern, but instead of URLs you will have to re
 
 Images are a special case of links, which you want to embed into your document and not only reference. Thus, these are important links, which are highlighted by a starting `!`.
 
-> **Task:**  Change the link below to an image.
+> **Task:** Change the link below to an image.
 >
 > What happened to the name of this link?
 > Try to change the image URL and see the result.
 >
-> __Every part is important__
+> **Every part is important**
 
 [Markdown logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
 
@@ -218,14 +218,12 @@ border: 4px dotted pink">
 LiaScript-ruleZ
 </h2>
 
-
 But, if you want to add code with syntax-Highlighting, you have surround it with a block of 3 backticks \`.
 After the first backtick you can specify the language you use.
 
 > **Task:**
 >
 > Surround the code above with 3 backticks and use the HTML syntax-highlighting.
-
 
 ##### `<details>` & `<summary>`
 
@@ -242,7 +240,7 @@ https://www.youtube.com/watch?v=lhSjYT7pWkw
 > This is not standard, but if you surround your content with `<lia-keep>`, then everything within is treated as HTML.
 > No additional Markdown/LiaScript parsing is involved.
 
-``` markdown
+```markdown
 <lia-keep>
 | Header 1   | Header 2   | Header 3   |
 | :--------- | :--------- | :--------- |
@@ -256,40 +254,40 @@ How would you write down a table with only a typewriter?
 Probably similar to the way as it is done here.
 
 | Head 1 | Head 2 | Head 3 |
-|:------ |:------:| ------:|
+| :----- | :----: | -----: |
 | Item 1 | Item 2 | Item 3 |
 | ...    |  ...   |    ... |
 
-* Cells are separated by horizontal `|`
-* The first line is the table head
-* The "colons" define the orientation of the "column":
+- Cells are separated by horizontal `|`
+- The first line is the table head
+- The "colons" define the orientation of the "column":
 
   - left: `:---`
   - right: `---:`
   - centered: `:---:`
 
 > **Task:** Add additional lines to the table and change the column orientation
+
 ## LiaScript?
 
 Markdown is used for creating static content and blogging. With LiaScript we tried to extend the visual metaphors and extend the language in various ways.
 It allows to embed:
 
-* Animations
-* Text2Speech
-* Quizzes
-* Multimedia
-* ASCII-Art
-* interactive tables
-* online programming
-* and more ...
+- Animations
+- Text2Speech
+- Quizzes
+- Multimedia
+- ASCII-Art
+- interactive tables
+- online programming
+- and more ...
 
 ### Adding Meta-Information
 
 If you go to the very first line of your course, you will see something like a HTML comment.
 Within this comment you can provide additional information about you and your course and are visible to the user, if you go to the information field.
 
-
-``` markdown
+```markdown
 <!--
 author:   Your Name
 
@@ -317,19 +315,19 @@ tags:     LiaScript, PowerPoint, Tutorial
 
 Further Settings:
 
-* language: You can provide a translation for your course, currently supported are: `ar`, `bg`, `de`, `en`, `es`, `fa`, `hy`, `ko`, `nl`, `ru`, `tw`, `ua`, `zh`
+- language: You can provide a translation for your course, currently supported are: `ar`, `bg`, `de`, `en`, `es`, `fa`, `hy`, `ko`, `nl`, `ru`, `tw`, `ua`, `zh`
 
   https://github.com/LiaScript/lia-localization
 
-* narrator: defines the default voice, type "voice" to get a preview onto all supported voices.
+- narrator: defines the default voice, type "voice" to get a preview onto all supported voices.
 
 ### Multimedia
 
 From links to ! images --> ? audio --> !? video --> ?? anything else:
 
-* Audio: `?[alt-info](url)`
-* Video: `!?[alt-info](url)`
-* Anything else: `??[alt-info](url)`
+- Audio: `?[alt-info](url)`
+- Video: `!?[alt-info](url)`
+- Anything else: `??[alt-info](url)`
 
 > Task1: Embed the links below as audio content
 
@@ -373,8 +371,8 @@ From links to ! images --> ? audio --> !? video --> ?? anything else:
 You can use these curly braces to let blocks appear and disappear.
 Simply add these points the the beginning of your block.
 
-* fade-in: `{{2}}`
-* fade-in and out: `{{1-3}}`
+- fade-in: `{{2}}`
+- fade-in and out: `{{1-3}}`
 
 > **Task:** Add some animations to the content below.
 
@@ -392,8 +390,8 @@ And disappear at step 2.
 
 You can also "inline" animations, simply by unpacking the curly braces:
 
-* fade-in: `{2}{TADA}`
-* fade-in and out: `{1-3}{a __small__-note}`
+- fade-in: `{2}{TADA}`
+- fade-in and out: `{1-3}{a __small__-note}`
 
 > **Task:** Try to add a table, where the table content will appear step-wise.
 > Check the different presentations in Textbook mode.
@@ -403,20 +401,19 @@ You can also "inline" animations, simply by unpacking the curly braces:
 ### Text to speech
 
 The currently used default language is `UK English Female`.
-LiaScript currently uses responsive voice as the TTS-Api: 
+LiaScript currently uses responsive voice as the TTS-Api:
 
-https://responsivevoice.org 
+https://responsivevoice.org
 
 You can use more voices, simply by typing "voice".
-
 
 With this notation `--{{1}}--` you can add some more explanation that will be spoken out loud to animation-step 1. You can also change the voice for per comment `--{{2 US English Male}}--`.
 
 > **Task:** Add some comment tags to the head of the paragraphs below and change their voices.
-> 
+>
 > Try to add some examples of your mother tongue.
 
-The entire ***Markdown*** paragraph right below the effect definition in double minus notation is sent to responsivevoice to speak the text out loud. If you click on the ear button at the navigation panel, then this paragraph gets rendered at the place where it is defined.
+The entire **_Markdown_** paragraph right below the effect definition in double minus notation is sent to responsivevoice to speak the text out loud. If you click on the ear button at the navigation panel, then this paragraph gets rendered at the place where it is defined.
 
 Der Ganze Satz sollte deutsch ausgesprochen werden!
 
@@ -438,7 +435,7 @@ A text input is simply a filed that follows after your question.
 The solution is placed within a stylized input field.
 In LiaScript quizzes are always associated with double brackets.
 
-    `[[Solution]]`
+    `[[Whatever you say boss]]`
 
 > **Task:** Remove the backtics, change the solution and add your questions.
 
@@ -492,7 +489,7 @@ What is the name of the Markdown dialect we are using?
     [[?]] You have to use the correct writing
     [[?]] The solutions starts with Lia.....
 
-> **Task:** Try to add some hints to other quizzes. 
+> **Task:** Try to add some hints to other quizzes.
 
 ##### Solutions
 
@@ -507,7 +504,7 @@ What is the name of the Markdown dialect we are using?
     [[?]] You have to use the correct writing
     [[?]] The solutions starts with Lia.....
     **************************************************
-    
+
     LiaScript is an interactive extension to Markdown,
     which allows to develop free and open online course.
     More information can be found at:
@@ -529,7 +526,6 @@ What is the name of the Markdown dialect we are using?
 
     **************************************************
 
-
 ##### Controlling the solutions
 
 You can associate javascript to your quiz, which controls how to deal with the input and returns either `true` or `false`.
@@ -549,7 +545,6 @@ You can associate javascript to your quiz, which controls how to deal with the i
 > More information about quizzes and how they can be used in LiaScript can be found at the
 > [LiaScript-documentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#60).
 
-
 ### Formulas
 
 LiaScript uses [KaTeX](https://katex.org) to generate formulas.
@@ -567,6 +562,7 @@ See all usable functions: https://katex.org/docs/supported.html
    $$
 
 #### Interactive formulas
+
 <!--
 @formula: <script>console.html(`<lia-formula formula="@'input" displayMode="true"></lia-formula>`);"LIA: stop"</script>
 
@@ -574,7 +570,7 @@ See all usable functions: https://katex.org/docs/supported.html
 
 Center by using `=`
 
-``` latex
+```latex
 \begin{split}
   a &=b+c \\
     &=e+f \\
@@ -582,21 +578,23 @@ Center by using `=`
 a+b+&c+d=12\\
 \end{split}
 ```
+
 @formula
 
 Add numbering to formulas
 
-``` latex
+```latex
 \tag{33}
 \begin{equation}
  a =b+c
 \end{equation}
 ```
+
 @formula
 
 Definition of a matrix and use some HTML.
 
-``` latex
+```latex
 \begin{Bmatrix}
    a & b & c & d & e & f \\
    g & h & i & j & k & l \\
@@ -610,6 +608,7 @@ Definition of a matrix and use some HTML.
 \\
 \includegraphics[height=0.8em, totalheight=0.9em, width=0.9em, alt=KA logo]{https://katex.org/img/khan-academy.png}
 ```
+
 @formula
 
 ### ASCII-Art
@@ -622,12 +621,11 @@ The benefit is, that you do not have to switch to another external tool and ever
 
 Characters represent colors, upper and lowercase defines the size of the line.
 
-
                  Combining dots and poly-lines
     1.9 |
         |     DOTS
       y |                                    *
-      - |                              
+      - |
       a |                        *
       x |                  *
       i |            *
@@ -642,7 +640,7 @@ Characters represent colors, upper and lowercase defines the size of the line.
 
 A markdown code-block which is marked with `ASCII`, is used to define an image:
 
-``` ascii
+```ascii
          +-------------+       .--------------.
  +------#|    Box 1    |------*|     Box 2    +-------.
   \      +-------------+       '-o------------'       |
@@ -660,28 +658,29 @@ https://github.com/andre-dietrich/elm-svgbob
 ### Formatting
 
 <!-- style="color: red; font-size: 4rem; max-width: 400px" -->
+
 Blocs<!-- style="background: green" --> and single elements<!-- style="border: 3px dashed blue" --> can be styled differently!
 
-> __Note:__ If a comment is __before__ a block and represents HTML parameters it is used for the entire block.
-> If the comment is __after__ a element, then it is associated with this element only.
+> **Note:** If a comment is **before** a block and represents HTML parameters it is used for the entire block.
+> If the comment is **after** a element, then it is associated with this element only.
 >
 > See also: [W3Schools](https://www.w3schools.com/Css/css_colors.asp)
 
 #### Useful Styles
 
-* Font color:
+- Font color:
   `color: red` or `color: #FF0000` or `color: rgb(1,0,0)`
-* Font size:
+- Font size:
   `font-size: 4rem` or `font-size: 3cm` or `font-size: 20px`
-* Max width and height:
+- Max width and height:
   `max-height: 300px` `max-width: 300px`
-* Min width and height:
+- Min width and height:
   `min-height: 300px` `min-width: 300px`
-* Total height and width:
+- Total height and width:
   `width: 300px` oder `width: 50%` oder `width: 50vw`
-* Borders:
+- Borders:
   `border: 2px solid black` oder `border: 2px dashed black`
-* Spacing:
+- Spacing:
   `padding: 3px` oder `padding-top: ..` oder `padding-left`
   oder `margin: 3px` oder `margin-top: ..` oder `margin-left`
 
@@ -693,13 +692,15 @@ Blocs<!-- style="background: green" --> and single elements<!-- style="border: 3
 
 **Example:**
 
-```` markdown
+````markdown
 <!-- class="notranslate" translate="no" -->
+
 All code elements are automatically tagged with the attribute class `notranslate`.
 
 <!-- class="translate" translate="yes" -->
-``` javascript
-console.log("Hello World")
+
+```javascript
+console.log("Hello World");
 ```
 ````
 
@@ -730,7 +731,7 @@ Besides, you can also define the visualization you want to use.
 Above the table is a little button, that switches to the diagram view.
 
 |   x |  y1 |  y2 |  y3 |
-| ---:| ---:| ---:| ---:|
+| --: | --: | --: | --: |
 |   1 |   1 |   1 |  15 |
 |   2 |   2 |   4 |  15 |
 |   3 |   3 |   9 |  15 |
@@ -744,9 +745,8 @@ Above the table is a little button, that switches to the diagram view.
 
 In most cases the first column represents the x-values or in this case the main categories.
 
-
 | Animal          | weight in kg | Lifespan years | Mitogen |
-| --------------- | ------------:| --------------:| -------:|
+| --------------- | -----------: | -------------: | ------: |
 | Mouse           |     0.028 kg |              2 |      95 |
 | Flying squirrel |     0.085 kg |             15 |      50 |
 | Brown bat       |     0.020 kg |             30 |      10 |
@@ -762,15 +762,16 @@ In most cases the first column represents the x-values or in this case the main 
 What is a table with only one category?
 
 | Music-Style 1994 | Classic | Country | Reggae | Hip-Hop | Hard-Rock | Samba |
-|:---------------- | -------:| -------:| ------:| -------:| ---------:| -----:|
+| :--------------- | ------: | ------: | -----: | ------: | --------: | ----: |
 | Student rating   |      50 |      50 |    100 |     200 |       350 |   250 |
 
 To simplify the defintion, you can also use the following table and use the block-comment `<!-- data-transpose -->`, which only performs a matrix transpose before analyzing the table.
 You can also use micro-animations to present different tables.
 
 <!-- data-transpose -->
+
 | Music-Style {0-1}{1994} {1}{2014} |      Student rating |
-|:--------------------------------- | -------------------:|
+| :-------------------------------- | ------------------: |
 | Classic                           |   {0-1}{50} {1}{20} |
 | Country                           |   {0-1}{50} {1}{30} |
 | Reggae                            |                 100 |
@@ -789,19 +790,18 @@ src="https://raw.githubusercontent.com/liaScript/docs/master/README.md"
 link="https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#fun-with-tables">
 </preview-lia>
 
-
 ### Coding
-
 
 JavaScript code can be directly made executable and editable by adding a script-tag `<script>...</script>`.
 It tells LiaScript how to deal with the content.
 `@input` is replaced by the code.
 
-``` js
+```js
 console.warn("Hello World");
 
-33*55;
+33 * 55;
 ```
+
 <script>@input</script>
 
 > **Task:** Edit some of the code, and jump to different versions with the buttons below.
@@ -812,21 +812,24 @@ console.warn("Hello World");
 A project can be seen as a collection of code-blocks and a script, which defines how to deal with the different inputs.
 Additionally you can add titles to your files.
 
-``` js     -EvalScript.js
+```js -EvalScript.js
 let who = data.first_name + " " + data.last_name;
 
-if(data.online) {
-  who + " is online"; }
-else {
-  who + " is NOT online"; }
-```
-``` json    +Data.json
-{
-  "first_name" :  "Sammy",
-  "last_name"  :  "Shark",
-  "online"     :  true
+if (data.online) {
+  who + " is online";
+} else {
+  who + " is NOT online";
 }
 ```
+
+```json +Data.json
+{
+  "first_name": "Sammy",
+  "last_name": "Shark",
+  "online": true
+}
+```
+
 <script>
   // insert the JSON dataset into the local variable data
   let data = @input(1);
@@ -841,10 +844,9 @@ LiaScript allows to add external functionality by using macros.
 Macros are defined within the main-comment at the head of your document.
 Macros provide basically only a substitution and have to be called from the course with a starting `@`.
 
-
-* `@author`
-* `@email`
-* `@comment`
+- `@author`
+- `@email`
+- `@comment`
 
 A macro can contain Markdown, HTML, CSS or JavaScript.
 
@@ -862,7 +864,7 @@ every document can be seen as a library, which can be imported into your course 
 
 example from [AVR8js](https://github.com/LiaTemplates/AVR8js):
 
-```` markdown
+````markdown
 <!--
 import: https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 -->
@@ -875,7 +877,7 @@ import: https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 <span id="simulation-time"></span>
 </div>
 
-``` cpp
+```cpp
 byte leds[] = {13, 12, 11, 10};
 void setup() {
   Serial.begin(115200);
@@ -894,6 +896,7 @@ void loop() {
   i = (i + 1) % sizeof(leds);
 }
 ```
+
 @AVR8js.sketch(example)
 ````
 
@@ -911,12 +914,12 @@ Surveys are basically quizzes without solutions but with options.
 
 What features do you like about LiaScript?
 
-   [[TTS]] The text to speech output
-   [[Animations]] PowerPoint like animations
-   [[Multimedia]] Easy integration of multimedia content
-   [[ASCII]] Drawing with characters
-   [[Coding]] Inline coding
-   [[Openness]] The free sharing
+[[TTS]] The text to speech output
+[[Animations]] PowerPoint like animations
+[[Multimedia]] Easy integration of multimedia content
+[[ASCII]] Drawing with characters
+[[Coding]] Inline coding
+[[Openness]] The free sharing
 
 Will you use LiaScript to create courses?
 
